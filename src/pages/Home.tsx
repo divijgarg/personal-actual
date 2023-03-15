@@ -4,31 +4,33 @@ import {
   Heading,
   Text,
   AbsoluteCenter,
+  VStack,
 } from "@chakra-ui/react";
 import Nav from "../components/Navbar";
 
 function Home() {
   return (
     <Box
-      width="100%"
+      w="100%"
+      overflow="hidden"
+      h="100vh"
       pos="relative"
       bgAttachment="fixed"
       bgSize="100%"
-      // bgPos="50% 100%"
       bgRepeat="no-repeat"
       bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
     >
       <Nav />
-      <Flex width="100%" height="600px">
-        <AbsoluteCenter
-          height="60%"
+      <VStack width="100%" h="100%">
+        <Box
+          height="100%"
           width="60%"
-          bg="black"
-          color="white"
-          opacity="50%"
-          borderRadius="10px"
+          // bg="transparent"
+          // color="white"
+          // opacity="50%"
+          // borderRadius="10px"
         >
-          <Heading fontSize="80px" marginTop="15%" textAlign="center">
+          <Heading fontSize="80px" marginTop="20%" textAlign="center">
             Hi, I'm Divij Garg.
           </Heading>
           <Text
@@ -39,8 +41,8 @@ function Home() {
           >
             Researcher | Writer | Developer
           </Text>
-        </AbsoluteCenter>
-      </Flex>
+        </Box>
+      </VStack>
     </Box>
   );
 }

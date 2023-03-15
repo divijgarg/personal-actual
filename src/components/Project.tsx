@@ -14,7 +14,7 @@ export default function Project(props: CardProps) {
   const [isHovering, setIsHovering] = React.useState(false);
 
   return (
-    <Link href={href} _hover={{ textDecoration: "none" }}>
+    <Link href={href} _hover={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
       <Box
         bg="white"
         boxShadow="lg"
@@ -27,7 +27,7 @@ export default function Project(props: CardProps) {
         cursor="pointer"
       >
         <Image src={img} alt={title} objectFit="cover" w="300px" h="200px" />
-        {isHovering && (
+        {!isHovering && (
           <Box
             position="absolute"
             top="0"
@@ -45,7 +45,7 @@ export default function Project(props: CardProps) {
             <Text fontSize="lg" fontWeight="bold" mb="2">
               {title}
             </Text>
-            <Text fontSize="sm">{desc}</Text>
+            <Text fontSize="sm" textAlign="center">{desc}</Text>
           </Box>
         )}
       </Box>

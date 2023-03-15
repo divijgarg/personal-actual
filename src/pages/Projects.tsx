@@ -1,10 +1,11 @@
-import { VStack, Heading, HStack, Box, Grid, GridItem } from "@chakra-ui/react";
+import { VStack, Heading, HStack, Box, Grid, GridItem, Text } from "@chakra-ui/react";
 import Project from "../components/Project";
 import Nav from "../components/Navbar";
+import Footer from "../components/Footer";
 function Projects() {
   return (
     <Box
-      // width="100%"
+      width="100%"
       // h="1000px"
       pos="relative"
       bgSize="cover"
@@ -15,15 +16,26 @@ function Projects() {
       <Nav />
 
       <VStack
-        spacing="70px"
-        marginTop="50px"
-        alignContent="center"
+        spacing="50px"
+        // marginTop="50px"
+        // alignContent="center"
         width="100%"
-        h="600px"
+        // h="600px"
       >
-        <Heading textAlign="left" fontSize="30px" textDecoration="underline">
+        <Heading
+          width="90%"
+          textAlign="center"
+          fontSize="30px"
+          textDecoration="underline"
+        >
           recent projects
         </Heading>
+        {/* <Text width="90%"
+          textAlign="left"
+          fontSize="20px">
+          Most of my projects are for my own self-interest, focusing on
+          combining mathematics and computer science and revealing trends.
+        </Text> */}
         <Grid
           templateRows="repeat(2, 1fr)"
           templateColumns="repeat(3, 1fr)"
@@ -73,7 +85,9 @@ function Projects() {
 
           {/* <ProjectDrawer /> */}
         </Grid>
+
       </VStack>
+      <Footer />
     </Box>
   );
 }

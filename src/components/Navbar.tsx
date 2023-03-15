@@ -90,11 +90,14 @@ const NavBarContainer = ({ children, ...props }) => {
       as="nav"
       align="center"
       justify="space-between"
+      pos="relative"
+      zIndex="4"
+      bg="black"
       wrap="wrap"
       w="100%"
       mb={8}
       p={8}
-      bg={["primary.500", "primary.500", "transparent", "transparent"]}
+      // bg={["primary.500", "primary.500", "transparent", "transparent"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}
     >
