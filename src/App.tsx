@@ -8,6 +8,7 @@ import NavBar from "./components/Navbar";
 import Blog from "./pages/Blog";
 import Story from "./pages/Story";
 export default function App() {
+  
   return (
     <Routes>
       {/* <NavBar /> */}

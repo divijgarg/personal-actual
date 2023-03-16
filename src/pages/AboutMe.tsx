@@ -1,4 +1,4 @@
-import { VStack, Box } from "@chakra-ui/react";
+import { VStack, Box, useBreakpointValue } from "@chakra-ui/react";
 
 import Timeline from "../components/ExperienceTimeline";
 import Nav from "../components/Navbar";
@@ -8,6 +8,8 @@ import Projects from "../components/Projects";
 import Education from "../components/Education";
 import PersonalInfo from "../components/PersonalInfo";
 function AboutMe() {
+  const isMobile = useBreakpointValue({ base: true, md: false });
+  const isDesktop = useBreakpointValue({ base: false, md: true });
   return (
     <Box
       maxW="100%"

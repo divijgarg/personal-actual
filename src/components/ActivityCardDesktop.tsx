@@ -1,16 +1,17 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 
-interface ActivityCardProps {
+interface ActivityCardDesktopProps {
   activityName: string;
   role: string;
   description: string;
 }
 
-const ActivityCard: React.FC<ActivityCardProps> = ({
+const ActivityCardDesktop: React.FC<ActivityCardDesktopProps> = ({
   activityName,
   role,
   description,
 }) => {
+  
   return (
     <Flex
       bg="gray.800"
@@ -37,4 +38,4 @@ const ActivityCard: React.FC<ActivityCardProps> = ({
   );
 };
 
-export default ActivityCard;
+export default ActivityCardDesktop;

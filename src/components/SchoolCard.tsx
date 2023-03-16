@@ -1,6 +1,7 @@
 import { Box, Center, Text, VStack } from "@chakra-ui/react";
 
 export default function SchoolCard({ schoolName, datesAttended, description }) {
+
   return (
     <Box
       w="300px"
