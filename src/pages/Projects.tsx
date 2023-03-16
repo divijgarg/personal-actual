@@ -84,6 +84,14 @@ function Projects() {
               href="https://github.com/divijgarg/Trucycle"
             />
           </GridItem>
+          <GridItem>
+            <Project
+              title="Word Search"
+              img="https://media.istockphoto.com/id/177299085/photo/magnetic-words-collection.jpg?s=612x612&w=0&k=20&c=F-yfE938vdWdsg7qIH0fkmbccbzMjcoYUYAHBpLBZn4="
+              desc="Simple Javascript version of a WordSearch game."
+              href="https://github.com/divijgarg/Trucycle"
+            />
+          </GridItem>
 
           {/* <ProjectDrawer /> */}
         </Grid>

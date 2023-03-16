@@ -1,6 +1,5 @@
 import React from "react";
 
-// import Stories from "../components/Stories";
 import { Box, Grid, GridItem, Heading, VStack } from "@chakra-ui/react";
 import NavBar from "../components/Navbar";
 import Content from "../assets/Content";

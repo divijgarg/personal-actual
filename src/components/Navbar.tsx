@@ -58,7 +58,7 @@ const MenuLinks = ({ isOpen }) => {
   return (
     <Box
       display={{ base: isOpen ? "block" : "none", md: "block" }}
-      position="fixed"
+      // position="fixed"
       flexBasis={{ base: "100%", md: "auto" }}
     >
       <Stack
@@ -91,7 +91,7 @@ const NavBarContainer = ({ children, ...props }) => {
       align="center"
       justify="space-between"
       pos="relative"
-      zIndex="4"
+      // zIndex="4"
       bg="black"
       wrap="wrap"
       w="100%"

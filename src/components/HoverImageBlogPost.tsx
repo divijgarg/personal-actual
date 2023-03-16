@@ -13,6 +13,10 @@ const BlogPreviewCard = ({
   img,
   href,
 }: BlogPreviewCardProps) => {
+  const handleClick = () => {
+    window.location.href = href;
+  };
+
   return (
     <Box
       maxW="sm"
@@ -24,7 +28,7 @@ const BlogPreviewCard = ({
       transition="transform 0.2s"
       _hover={{ transform: "scale(1.05)" }}
       cursor="pointer"
-      onClick={() => window.open(href)}
+      onClick={handleClick}
     >
       <Image src={img} alt={title} />
       <Box p="6" bgColor="gray.800">
