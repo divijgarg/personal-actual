@@ -1,7 +1,13 @@
-import { VStack, Heading, HStack, Box, Grid, GridItem, Text } from "@chakra-ui/react";
-import Project from "../components/Project";
-import Nav from "../components/Navbar";
-import Footer from "../components/Footer";
+import {
+  VStack,
+  Heading,
+  HStack,
+  Box,
+  Grid,
+  GridItem,
+  Text,
+} from "@chakra-ui/react";
+import Project from "../components/HoverImageCard";
 function Projects() {
   return (
     <Box
@@ -13,7 +19,7 @@ function Projects() {
       bgAttachment="fixed"
       bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
     >
-      <Nav />
+      {/* <Nav /> */}
 
       <VStack
         spacing="50px"
@@ -24,18 +30,14 @@ function Projects() {
       >
         <Heading
           width="90%"
-          textAlign="center"
-          fontSize="30px"
+          textAlign="right"
           textDecoration="underline"
+          fontSize="4xl"
+          fontWeight="bold"
+          mb={18}
         >
           recent projects
         </Heading>
-        {/* <Text width="90%"
-          textAlign="left"
-          fontSize="20px">
-          Most of my projects are for my own self-interest, focusing on
-          combining mathematics and computer science and revealing trends.
-        </Text> */}
         <Grid
           templateRows="repeat(2, 1fr)"
           templateColumns="repeat(3, 1fr)"
@@ -85,9 +87,8 @@ function Projects() {
 
           {/* <ProjectDrawer /> */}
         </Grid>
-
       </VStack>
-      <Footer />
+      {/* <Footer /> */}
     </Box>
   );
 }

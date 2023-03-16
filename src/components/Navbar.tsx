@@ -72,12 +72,12 @@ const MenuLinks = ({ isOpen }) => {
           home
         </MenuItem>
 
-        <MenuItem isLast="false" to="/projects">
-          projects{" "}
-        </MenuItem>
 
         <MenuItem isLast="false" to="/aboutme">
           about me
+        </MenuItem>
+        <MenuItem isLast="false" to="/blog">
+          blog
         </MenuItem>
       </Stack>
     </Box>

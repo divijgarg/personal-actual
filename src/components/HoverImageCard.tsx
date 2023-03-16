@@ -8,7 +8,7 @@ interface CardProps {
   href: string;
 }
 
-export default function Project(props: CardProps) {
+export default function HoverImageCard(props: CardProps) {
   const { title, img, desc, href } = props;
 
   const [isHovering, setIsHovering] = React.useState(false);

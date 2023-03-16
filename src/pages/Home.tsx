@@ -25,10 +25,6 @@ function Home() {
         <Box
           height="100%"
           width="60%"
-          // bg="transparent"
-          // color="white"
-          // opacity="50%"
-          // borderRadius="10px"
         >
           <Heading fontSize="80px" marginTop="20%" textAlign="center">
             Hi, I'm Divij Garg.
