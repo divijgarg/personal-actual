@@ -91,8 +91,7 @@ const NavBarContainer = ({ children, ...props }) => {
       align="center"
       justify="space-between"
       pos="relative"
-      // zIndex="4"
-      bg="black"
+      bg="transparent"
       wrap="wrap"
       w="100%"
       mb={8}

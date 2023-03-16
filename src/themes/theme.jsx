@@ -7,6 +7,7 @@ const theme = extendTheme({
         heading: 'Righteous',
         body: 'viga',
     },
+    
 })
 
 

@@ -7,12 +7,7 @@ interface BlogPreviewCardProps {
   href: string;
 }
 
-const BlogPreviewCard = ({
-  title,
-  desc,
-  img,
-  href,
-}: BlogPreviewCardProps) => {
+const BlogPreviewCard = ({ title, desc, img, href }: BlogPreviewCardProps) => {
   const handleClick = () => {
     window.location.href = href;
   };
@@ -33,11 +28,16 @@ const BlogPreviewCard = ({
       <Image src={img} alt={title} />
       <Box p="6" bgColor="gray.800">
         <Flex alignItems="baseline">
-          <Text fontWeight="bold" fontSize="xl" mr="2">
+          <Text color="white" fontWeight="bold" fontSize="xl" mr="2">
             {title}
           </Text>
         </Flex>
-        <Text mt="2" color="gray.500" fontSize="sm" lineHeight="tall">
+        <Text
+          color="white"
+          mt="2"
+          fontSize="sm"
+          lineHeight="tall"
+        >
           {desc}
         </Text>
       </Box>

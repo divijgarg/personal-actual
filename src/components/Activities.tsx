@@ -6,6 +6,7 @@ export default function Activities() {
     <VStack w="90%" spacing="40px">
       <Heading
         w="100%"
+        color="white"
         textAlign="left"
         textDecoration="underline"
         fontSize="4xl"

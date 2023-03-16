@@ -6,6 +6,7 @@ export default function Education() {
     <VStack w="90%" spacing="40px">
       <Heading
         w="100%"
+        color="white"
         textAlign="right"
         textDecoration="underline"
         fontSize="4xl"

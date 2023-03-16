@@ -14,21 +14,22 @@ function Story() {
 
     return (
       <Box
-        width="100%"
-        pos="relative"
-        bgSize="cover"
-        minH="100vh"
-        bgRepeat="no-repeat"
-        bgAttachment="fixed"
-        // bg="gray.1200"
-        bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.5)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
-      >
+      maxW="100%"
+      overflow="hidden"
+      minH="100vh"
+      bgPos="center"
+      bgAttachment="fixed"
+      bgRepeat="no-repeat"
+      bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
+        >
         <NavBar />
         <VStack w="90%" margin="auto">
-          <Heading textAlign="left" fontSize="7xl" fontWeight="bold" mb="4">
+          <Heading         color="white"
+ textAlign="left" fontSize="7xl" fontWeight="bold" mb="4">
             {title}
           </Heading>
-          <Text fontSize="m" textAlign="left" w="100%">
+          <Text          color="white"
+fontSize="m" textAlign="left" w="100%">
             {date}
           </Text>
           {/* <Box w="100%">

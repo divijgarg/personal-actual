@@ -8,13 +8,14 @@ const App = () => {
   const blogPosts = Content;
   return (
     <Box
-      w="100%"
-      pos="relative"
-      bgSize="cover"
-      bgRepeat="no-repeat"
-      minH="100vh"
-      bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
-      bgAttachment="fixed"
+    maxW="100%"
+    overflow="hidden"
+    minH="100vh"
+    bgPos="center"
+    bgAttachment="fixed"
+    bgRepeat="no-repeat"
+    bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
+
     >
       <NavBar />
       <VStack w="90%" margin="auto">
@@ -25,6 +26,7 @@ const App = () => {
           fontSize="4xl"
           fontWeight="bold"
           mb={18}
+          color="white"
         >
           my posts
         </Heading>

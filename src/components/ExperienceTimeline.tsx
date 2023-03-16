@@ -51,6 +51,7 @@ const Milestones = () => {
         fontSize="4xl"
         fontWeight="bold"
         mb={18}
+        color="white"
         textAlign = {isDesktop? "left" : "center"}
       >
         experience
@@ -118,6 +119,7 @@ const Card = ({ id, title, date, description }: CardProps) => {
       bg={useColorModeValue("gray.100", "gray.800")}
       spacing={5}
       opacity="90%"
+      bgColor="gray.800"
       rounded="lg"
       alignItems="center"
       pos="relative"
@@ -137,16 +139,16 @@ const Card = ({ id, title, date, description }: CardProps) => {
         display: "block",
       }}
     >
-      <Box>
+      <Box >
         <Text fontSize="lg" color={isEvenId ? "teal.400" : "blue.400"}>
           {date}
         </Text>
 
         <VStack spacing={2} mb={3} textAlign="left">
-          <Text fontSize="2xl" lineHeight={1.2} w="100%">
+          <Text color="white" fontSize="2xl" lineHeight={1.2} w="100%">
             {title}
           </Text>
-          <Text fontSize="md" textDecoration="italics">
+          <Text color="white" fontSize="md" textDecoration="italics">
             {" "}
             {description}
           </Text>

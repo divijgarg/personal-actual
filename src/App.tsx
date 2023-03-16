@@ -1,7 +1,7 @@
 import * as React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Projects from "./components/Projects";
 import AboutMe from "./pages/AboutMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
@@ -15,7 +15,6 @@ export default function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/stories/:id" element={<Story />} />
-
     </Routes>
   );
 }

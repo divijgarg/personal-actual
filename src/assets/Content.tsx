@@ -7,7 +7,13 @@ const Content = [
     desc: "",
     date: "Dec 25, 2022",
     content: (
-      <VStack textAlign="left" spacing="20px" w="80%" fontFamily="open-sans">
+      <VStack
+        color="white"
+        textAlign="left"
+        spacing="20px"
+        w="80%"
+        fontFamily="open-sans"
+      >
         <p>
           When questioning the wisdom of Shakespeare, one has to be careful.
           After all, he basically shaped all of modern-day literature. His

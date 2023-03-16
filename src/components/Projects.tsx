@@ -7,18 +7,10 @@ import {
   GridItem,
   Text,
 } from "@chakra-ui/react";
-import Project from "../components/HoverImageCard";
+import Project from "./HoverImageCard";
 function Projects() {
   return (
-    <Box
-      width="100%"
-      // h="1000px"
-      pos="relative"
-      bgSize="cover"
-      bgRepeat="no-repeat"
-      bgAttachment="fixed"
-      bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
-    >
+    <Box width="100%">
       {/* <Nav /> */}
 
       <VStack
@@ -33,6 +25,7 @@ function Projects() {
           textAlign="right"
           textDecoration="underline"
           fontSize="4xl"
+          color="white"
           fontWeight="bold"
           mb={18}
         >

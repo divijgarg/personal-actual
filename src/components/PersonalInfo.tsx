@@ -14,8 +14,8 @@ export default function PersonalInfo() {
         height="100%"
         // margin="auto"
       >
-        <Heading textAlign="left">Hey!</Heading>
-        <Text margin="auto" fontSize="2xl" textAlign="center">
+        <Heading color="white" textAlign="left">Hey!</Heading>
+        <Text color="white" margin="auto" fontSize="2xl" textAlign="center">
           I'm currently a student at the University of Illinois Urbana Champaign
           studying mathematics and astrophysics. I've been an avid space
           enthusiast for my entire life, and I'm currently interested in the
@@ -24,12 +24,14 @@ export default function PersonalInfo() {
 
         <HStack spacing="20px">
           <AiFillGithub
+          color="white"
             size="50px"
             onClick={() =>
               window.open("https://github.com/divijgarg", "_blank")
             }
           />
           <AiFillLinkedin
+          color="white"
             size="50px"
             onClick={() =>
               window.open(
@@ -39,6 +41,7 @@ export default function PersonalInfo() {
             }
           />
           <AiFillMediumCircle
+          color="white"
             size="50px"
             onClick={() =>
               window.open("https://medium.com/@divijgarg04", "_Medium")
@@ -49,6 +52,7 @@ export default function PersonalInfo() {
       </VStack>
       <Image
         objectFit="cover"
+        borderColor="white"
         src="https://www.linkpicture.com/q/IMG_2612-Copy1.jpg"
         alt="Divij Garg"
         borderRadius="50%"

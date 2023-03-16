@@ -11,12 +11,11 @@ import Nav from "../components/Navbar";
 function Home() {
   return (
     <Box
-      w="100%"
+      maxW="100%"
       overflow="hidden"
-      h="100vh"
-      pos="relative"
+      minH="100vh"
+      bgPos="center"
       bgAttachment="fixed"
-      bgSize="100%"
       bgRepeat="no-repeat"
       bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
     >
@@ -26,7 +25,7 @@ function Home() {
           height="100%"
           width="60%"
         >
-          <Heading fontSize="80px" marginTop="20%" textAlign="center">
+          <Heading color = "white" fontSize="80px" marginTop="20%" textAlign="center">
             Hi, I'm Divij Garg.
           </Heading>
           <Text
@@ -34,6 +33,7 @@ function Home() {
             fontSize="30px"
             marginBottom="30px"
             textAlign="center"
+            color = "white"
           >
             Researcher | Writer | Developer
           </Text>

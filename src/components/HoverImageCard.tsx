@@ -14,7 +14,12 @@ export default function HoverImageCard(props: CardProps) {
   const [isHovering, setIsHovering] = React.useState(false);
 
   return (
-    <Link href={href} _hover={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+    <Link
+      href={href}
+      _hover={{ textDecoration: "none" }}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Box
         bg="white"
         boxShadow="lg"
@@ -42,10 +47,12 @@ export default function HoverImageCard(props: CardProps) {
             p="4"
             color="white"
           >
-            <Text fontSize="lg" fontWeight="bold" mb="2">
+            <Text color="white" fontSize="lg" fontWeight="bold" mb="2">
               {title}
             </Text>
-            <Text fontSize="sm" textAlign="center">{desc}</Text>
+            <Text color="white" fontSize="sm" textAlign="center">
+              {desc}
+            </Text>
           </Box>
         )}
       </Box>
