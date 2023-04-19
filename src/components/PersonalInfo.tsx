@@ -17,7 +17,7 @@ export default function PersonalInfo() {
   const isDesktop = useBreakpointValue({ base: false, md: true });
   if (isDesktop) {
     return (
-      <HStack w="90%" spacing="100px" marginTop="10px">
+    <HStack w="90%" spacing="100px" marginTop="10px">
         <VStack
           spacing="25px"
           bgColor="transparent"
@@ -31,7 +31,7 @@ export default function PersonalInfo() {
             I'm currently a student at the University of Illinois Urbana
             Champaign studying mathematics and astrophysics. I've been an avid
             space enthusiast for my entire life, and I'm currently interested in
-            the applications of math to the astrophysics research.
+            the applications of math to  astrophysics research.
           </Text>
 
           <HStack spacing="20px">

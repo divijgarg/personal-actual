@@ -76,9 +76,9 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem isLast="false" to="/aboutme">
           about me
         </MenuItem>
-        <MenuItem isLast="false" to="/blog">
+        {/* <MenuItem isLast="false" to="/blog">
           blog
-        </MenuItem>
+        </MenuItem> */}
       </Stack>
     </Box>
   );

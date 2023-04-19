@@ -60,9 +60,9 @@ function Home() {
         <VStack width="100%" h="100%">
           <Box
             height="100%"
-            width="60%"
+            width="80%"
           >
-            <Heading color = "white" fontSize="60px" marginTop="50%" textAlign="center">
+            <Heading color = "white" fontSize="60px" marginTop="40%" textAlign="center">
               Hi, I'm Divij Garg.
             </Heading>
             <Text

@@ -21,7 +21,7 @@ export default function Activities() {
         <VStack w="100%" spacing="50px">
           <ActivityCardDesktop
             activityName="Model United Nations"
-            role="Director for MUNI"
+            role="Vice-President of Internal Affairs | Director for MUNI"
             description="Part of the Model UN club at UIUC. 
               Won Outstanding Delegate at the American Model United Nations conference in Chicago, IL. 
               Currently directing the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers."
@@ -57,7 +57,7 @@ export default function Activities() {
         <VStack w="100%" spacing="40px">
           <ActivityCardMobile
             activityName="Model United Nations"
-            role="Director for MUNI"
+            role="Vice-President of Internal Affairs | Director for MUNI"
             description="Part of the Model UN club at UIUC. 
                 Won Outstanding Delegate at the American Model United Nations conference in Chicago, IL. 
                 Currently directing the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers."
