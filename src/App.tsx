@@ -1,8 +1,10 @@
 import * as React from "react";
+import { useEffect } from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import Home from "./pages/Home";
 import Projects from "./components/Projects";
 import AboutMe from "./pages/AboutMe";
+import Photo from "./pages/Photo"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Blog from "./pages/Blog";
@@ -15,6 +17,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/aboutme" element={<AboutMe />} />
+      <Route path="/photos" element={<Photo />} />
       <Route path="/stories/:id" element={<Story />} />
     </Routes>
   );

@@ -15,23 +15,22 @@ export default function Activities() {
           fontSize="4xl"
           fontWeight="bold"
           mb={18}
-        >
-          current activities
+        >current activities
         </Heading>
         <VStack w="100%" spacing="50px">
           <ActivityCardDesktop
             activityName="Model United Nations"
             role="Vice-President of Internal Affairs | Director for MUNI"
             description="Part of the Model UN club at UIUC. 
-              Won Outstanding Delegate at the American Model United Nations conference in Chicago, IL. 
-              Currently directing the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers."
+              Directed the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers. 
+              Currently developing training plans for the 2023-2024 MUN competitive circuit."
           />
           <ActivityCardDesktop
-            activityName="Illinois Space Society"
-            role="Participant in RASC-AL"
-            description="Part of the ISS club at UIUC. 
-              Working on the 2022-2023 NASA RASC-AL competition to design a complete Mars mission plan. Working on the logistics/transportation team, where we focus on the trajectory/transport to Mars."
+            activityName="Photographer"
+            role="Instagram: divij_photography"
+            description="Aiming to learn DSLR photography, primarily focusing on nighttime and scenic photos."
           />
+          
           <ActivityCardDesktop
             activityName="Writer"
             role="https://www.medium.com/@divijgarg04"
@@ -59,14 +58,13 @@ export default function Activities() {
             activityName="Model United Nations"
             role="Vice-President of Internal Affairs | Director for MUNI"
             description="Part of the Model UN club at UIUC. 
-                Won Outstanding Delegate at the American Model United Nations conference in Chicago, IL. 
-                Currently directing the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers."
-          />
+             
+            Directed the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers. 
+            Currently developing training plans for the 2023-2024 MUN competitive circuit."/>
           <ActivityCardMobile
-            activityName="Illinois Space Society"
-            role="Participant in RASC-AL"
-            description="Part of the ISS club at UIUC. 
-                Working on the 2022-2023 NASA RASC-AL competition to design a complete Mars mission plan. Working on the logistics/transportation team, where we focus on the trajectory/transport to Mars."
+            activityName="Photographer"
+            role="Instagram: divij_photography"
+            description="Aiming to learn DSLR photography, primarily focusing on nighttime and scenic photos."
           />
           <ActivityCardMobile
             activityName="Writer"

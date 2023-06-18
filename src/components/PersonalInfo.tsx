@@ -16,22 +16,20 @@ export default function PersonalInfo() {
   const isMobile = useBreakpointValue({ base: true, md: false });
   const isDesktop = useBreakpointValue({ base: false, md: true });
   if (isDesktop) {
-    return (
+    return ( 
     <HStack w="90%" spacing="100px" marginTop="10px">
         <VStack
           spacing="25px"
           bgColor="transparent"
           height="100%"
-          // margin="auto"
         >
-          <Heading color="white" textAlign="left">
-            Hey!
-          </Heading>
+          <Heading color="white" textAlign="left">Hey!</Heading>
+
           <Text color="white" margin="auto" fontSize="2xl" textAlign="center">
             I'm currently a student at the University of Illinois Urbana
             Champaign studying mathematics and astrophysics. I've been an avid
             space enthusiast for my entire life, and I'm currently interested in
-            the applications of math to  astrophysics research.
+            the applications of math to astrophysics research.
           </Text>
 
           <HStack spacing="20px">
@@ -60,7 +58,6 @@ export default function PersonalInfo() {
               }
             />
           </HStack>
-          {/* <Text fontSize="xl">divijgarg04@gmail.com</Text> */}
         </VStack>
         <Image
           objectFit="cover"
@@ -70,14 +67,12 @@ export default function PersonalInfo() {
           borderRadius="50%"
           border="3px solid black"
           padding="2px"
-          w="30%"
-          // margin="auto"
-        />
+          w="30%"/>
       </HStack>
     );
   } else if (isMobile) {
     return (
-      <VStack w="90%" spacing="50px" marginTop="10px">
+      <VStack w="90%" spacing="50px" marginTop="10px" >
         <Image
           objectFit="cover"
           borderColor="white"
@@ -97,7 +92,7 @@ export default function PersonalInfo() {
             I'm currently a student at the University of Illinois Urbana
             Champaign studying mathematics and astrophysics. I've been an avid
             space enthusiast for my entire life, and I'm currently interested in
-            the applications of math to the astrophysics research.
+            the applications of math to astrophysics research.
           </Text>
 
           <HStack spacing="20px">

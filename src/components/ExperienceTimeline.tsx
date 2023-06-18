@@ -18,11 +18,11 @@ const milestones = [
     date: "Summer 2023",
     title: "Researcher @ Virginia Tech's Physics REU",
     description:
-      "Will be researching neutrino physics as part of VTech's Summer REU program for 10 weeks.",
+      "Will be researching radio astronomy under Dr. Lucero as part of VTech's Summer REU program for 10 weeks. Learning to analyze and reduce HI data from NGC 3941 using the Very Large Array (VLA) in New Mexico.",
   },
   {
     id: 2,
-    date: "December 2022 - Present",
+    date: "December 2022 - April 2023",
     title: "Web Designer @ Illinois School of Social Work",
     description: `Designing a website for the Champaign Urbana Public Health District to make community health resources more accessible to resident within the region. `,
   },
