@@ -19,7 +19,8 @@ function AboutMe() {
       bgPos="center"
       bgAttachment="fixed"
       bgRepeat="no-repeat"
-      bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
+      bgColor="black"
+      // bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
     >
       <Nav />
       <VStack spacing="100px" marginTop="100px">
