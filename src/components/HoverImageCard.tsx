@@ -26,10 +26,13 @@ export default function HoverImageCard(props: CardProps) {
         borderRadius="md"
         overflow="hidden"
         position="relative"
+        transition="transform 0.2s"
+        _hover={{ transform: "scale(1.05)" }}
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
-        transition="all 0.2s ease-in-out"
+        // transition="all 0.2s ease-in-out"
         cursor="pointer"
+        bgColor="black"
       >
         <Image src={img} alt={title} objectFit="cover" w="300px" h="200px" />
         {!isHovering && (

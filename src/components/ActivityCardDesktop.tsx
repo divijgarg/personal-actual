@@ -21,6 +21,7 @@ const ActivityCardDesktop: React.FC<ActivityCardDesktopProps> = ({
       alignItems="center"
       boxShadow="md"
       w="100%"
+      
     >
       <Box mr={4} minW="18%" maxW="18%">
         <Text fontWeight="bold" fontSize="2xl" color="white">

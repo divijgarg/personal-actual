@@ -5,6 +5,8 @@ import {
   VStack,
   useBreakpointValue,
   Image,
+  HStack,
+  Link,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Nav from "../components/Navbar";
@@ -69,7 +71,7 @@ function Home() {
 
         <Nav />
 
-        <VStack width="100%" position="absolute">
+        <VStack h="auto" width="100%" position="absolute">
           <Box height="100%" width="60%">
             <Heading
               color="white"
@@ -79,34 +81,57 @@ function Home() {
             >
               Hi, I'm Divij Garg.
             </Heading>
+
             <Text
               marginTop="20px"
               fontSize="30px"
-              marginBottom="30px"
+              // marginBottom="30px"
               textAlign="center"
               color="white"
             >
-              Researcher | Writer | Photographer
+              <Link href="https://github.com/divijgarg" isExternal>
+                {" "}
+                Researcher{" "}
+              </Link>{" "}
+              -
+              <Link href="https://medium.com/@divijgarg04" isExternal>
+                {" "}
+                Writer{" "}
+              </Link>{" "}
+              -
+              <Link
+                href="https://www.instagram.com/divij_photography/"
+                isExternal
+              >
+                {" "}
+                Photographer{" "}
+              </Link>
+            </Text>
+            <Text
+              marginTop="20%"
+              fontSize="10px"
+              textColor="white"
+              w="100%"
+              textAlign="center"
+            >
+              Photos taken and website designed by Divij Garg.
             </Text>
           </Box>
-          {/* <Footer /> */}
         </VStack>
       </Box>
-      
     );
   } else if (isMobile) {
     return (
       <Box
         maxW="100%"
         overflow="hidden"
-        minH="100vh"
+        minH="100vh"        
+        h="100%"
+        bgPos="center"
+        bgAttachment="fixed"
+        bgSize="cover"
         bgColor="black"
-        // bgPos="center"
-        // bgAttachment="fixed"
-        // bgRepeat="no-repeat"
-
-        // bgImage="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),url(https://wallpapercave.com/wp/wp4676576.jpg)"
-      >
+       >
         {images.map((image, index) => (
           <Image
             key={index}
@@ -124,7 +149,7 @@ function Home() {
           />
         ))}
         <Nav />
-        <VStack width="100%" position="absolute">
+        <VStack overflow="hidden" height="70%" width="100%" position="absolute">
           <Box height="100%" width="80%">
             <Heading
               color="white"
@@ -134,14 +159,40 @@ function Home() {
             >
               Hi, I'm Divij Garg.
             </Heading>
+
             <Text
               marginTop="20px"
-              fontSize="20px"
-              marginBottom="50px"
+              fontSize="30px"
               textAlign="center"
               color="white"
             >
-              Researcher | Writer | Photographer
+              <Link href="https://github.com/divijgarg" isExternal>
+                {" "}
+                Researcher{" "}
+              </Link>{" "}
+              -
+              <Link href="https://medium.com/@divijgarg04" isExternal>
+                {" "}
+                Writer{" "}
+              </Link>{" "}
+              -
+              <Link
+                href="https://www.instagram.com/divij_photography/"
+                isExternal
+              >
+                {" "}
+                Photographer{" "}
+              </Link>
+            </Text>
+            <Text
+              marginTop="20%"
+              marginBottom="10%"
+              fontSize="10px"
+              textColor="white"
+              w="100%"
+              textAlign="center"
+            >
+              Photos taken and website designed by Divij Garg.
             </Text>
           </Box>
         </VStack>

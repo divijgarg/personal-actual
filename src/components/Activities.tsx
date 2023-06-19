@@ -18,7 +18,7 @@ export default function Activities() {
         >current activities
         </Heading>
         <VStack w="100%" spacing="50px">
-          <ActivityCardDesktop
+          <ActivityCardDesktop 
             activityName="Model United Nations"
             role="Vice-President of Internal Affairs | Director for MUNI"
             description="Part of the Model UN club at UIUC. 

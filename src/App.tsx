@@ -7,18 +7,14 @@ import AboutMe from "./pages/AboutMe";
 import Photo from "./pages/Photo"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
-import Blog from "./pages/Blog";
-import Story from "./pages/Story";
 export default function App() {
   
   return (
     <Routes>
       {/* <NavBar /> */}
       <Route path="/" element={<Home />} />
-      <Route path="/blog" element={<Blog />} />
       <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/photos" element={<Photo />} />
-      <Route path="/stories/:id" element={<Story />} />
     </Routes>
   );
 }

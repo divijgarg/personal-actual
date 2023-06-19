@@ -68,12 +68,21 @@ const MenuLinks = ({ isOpen }) => {
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem isLast="false" to="/">
+        <MenuItem
+          transition="transform 0.2s"
+          _hover={{ transform: "scale(1.05)" }}
+          isLast="false"
+          to="/"
+        >
           home
         </MenuItem>
 
-
-        <MenuItem isLast="false" to="/aboutme">
+        <MenuItem
+          transition="transform 0.2s"
+          _hover={{ transform: "scale(1.05)" }}
+          isLast="false"
+          to="/aboutme"
+        >
           about me
         </MenuItem>
         {/* <MenuItem isLast="false" to="/photos">

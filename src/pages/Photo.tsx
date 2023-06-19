@@ -1,4 +1,4 @@
-import { VStack, Box, useBreakpointValue } from "@chakra-ui/react";
+import {Box, useBreakpointValue } from "@chakra-ui/react";
 import Nav from "../components/Navbar";
 interface Photo {
   title: string;
