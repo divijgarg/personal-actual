@@ -77,28 +77,7 @@ export default function HoverImageCard(props: CardProps) {
         <ModalOverlay />
         <ModalContent bgColor="#283635">
           <ModalHeader textColor="white">
-            <HStack w="100%">
-              <Text>{title}</Text>
-
-              <Link
-                transition="transform 0.2s"
-                _hover={{ transform: "scale(1.05)" }}
-                href={gitref}
-                isExternal
-              >
-                <AiFillGithub color="white" size="40px" />
-              </Link>
-              {showMid && (
-                <Link
-                  transition="transform 0.2s"
-                  _hover={{ transform: "scale(1.05)" }}
-                  href={midref}
-                  isExternal
-                >
-                  <AiFillMediumCircle color="white" size="40px" />
-                </Link>
-              )}
-            </HStack>
+            <Text>{title}</Text>
           </ModalHeader>
           <ModalBody w="100%">
             <VStack spacing="20px">
@@ -112,9 +91,26 @@ export default function HoverImageCard(props: CardProps) {
           </ModalBody>
 
           <ModalFooter>
-            {/* <Button colorScheme="blue" mr={3} onClick={onClose}>
-              Close
-            </Button> */}
+            <HStack w="100%" justifyContent="right">
+              {showMid && (
+                <Link
+                  transition="transform 0.2s"
+                  _hover={{ transform: "scale(1.05)" }}
+                  href={midref}
+                  isExternal
+                >
+                  <AiFillMediumCircle color="white" size="40px" />
+                </Link>
+              )}
+              <Link
+                transition="transform 0.2s"
+                _hover={{ transform: "scale(1.05)" }}
+                href={gitref}
+                isExternal
+              >
+                <AiFillGithub color="white" size="40px" />
+              </Link>
+            </HStack>
           </ModalFooter>
         </ModalContent>
       </Modal>

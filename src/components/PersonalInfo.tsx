@@ -10,6 +10,7 @@ import {
 import {
   AiFillGithub,
   AiFillLinkedin,
+  AiFillMail,
   AiFillMediumCircle,
 } from "react-icons/ai";
 
@@ -63,11 +64,11 @@ export default function PersonalInfo() {
               transition="transform 0.2s"
               _hover={{ transform: "scale(1.05)" }}
             >
-              <AiFillMediumCircle
+              <AiFillMail
                 color="white"
                 size="50px"
                 onClick={() =>
-                  window.open("https://medium.com/@divijgarg04", "_Medium")
+                  window.open("mailto: divijgarg04@gmail.com", "_Medium")
                 }
               />
             </Link>
@@ -129,11 +130,11 @@ export default function PersonalInfo() {
               )
             }
           />
-          <AiFillMediumCircle
+          <AiFillMail
             color="white"
             size="50px"
             onClick={() =>
-              window.open("https://medium.com/@divijgarg04", "_Medium")
+              window.open("mailto: divijgarg04@gmail.com", "_Medium")
             }
           />
         </HStack>
