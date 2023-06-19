@@ -1,7 +1,6 @@
 import { Box, Center, Text, VStack } from "@chakra-ui/react";
 
 export default function SchoolCard({ schoolName, datesAttended, description }) {
-
   return (
     <Box
       w="300px"
@@ -16,11 +15,9 @@ export default function SchoolCard({ schoolName, datesAttended, description }) {
         </Text>
       </Center>
       <VStack spacing={4} p={4}>
-        {/* <Text fontSize="md">Dates Attended:</Text> */}
         <Text color="white" fontSize="lg" fontWeight="semibold">
           {datesAttended}
         </Text>
-        {/* <Text fontSize="md">Description:</Text> */}
         <Text color="white" fontSize="md" textAlign="center">
           {description}
         </Text>

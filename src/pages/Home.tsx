@@ -89,7 +89,10 @@ function Home() {
               textAlign="center"
               color="white"
             >
-              <Link href="https://github.com/divijgarg" isExternal>
+              <Link
+                href="https://github.com/divijgarg"
+                isExternal
+              >
                 {" "}
                 Researcher{" "}
               </Link>{" "}
@@ -125,13 +128,13 @@ function Home() {
       <Box
         maxW="100%"
         overflow="hidden"
-        minH="100vh"        
+        minH="100vh"
         h="100%"
         bgPos="center"
         bgAttachment="fixed"
         bgSize="cover"
         bgColor="black"
-       >
+      >
         {images.map((image, index) => (
           <Image
             key={index}
