@@ -8,10 +8,8 @@ import {
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Nav from "../components/Navbar";
-/*"https://i.postimg.cc/CKg5Hxzh/IMG-4598.jpg",
-    "https://i.postimg.cc/HxfQQ78S/IMG-5018.jpg",
-    "https://i.postimg.cc/rw85CTzL/IMG-5026.jpg"
-*/
+import Footer from "../components/Footer";
+
 function Home() {
   const isMobile = useBreakpointValue({ base: true, md: false });
   const isDesktop = useBreakpointValue({ base: false, md: true });
@@ -32,7 +30,7 @@ function Home() {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -91,8 +89,10 @@ function Home() {
               Researcher | Writer | Photographer
             </Text>
           </Box>
+          {/* <Footer /> */}
         </VStack>
       </Box>
+      
     );
   } else if (isMobile) {
     return (
@@ -141,7 +141,7 @@ function Home() {
               textAlign="center"
               color="white"
             >
-              Researcher | Writer | Developer
+              Researcher | Writer | Photographer
             </Text>
           </Box>
         </VStack>

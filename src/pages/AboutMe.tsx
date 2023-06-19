@@ -29,8 +29,9 @@ function AboutMe() {
         <Projects />
         <Activities />
         <Education />
+        <Box h="20px"></Box>
       </VStack>
-      <Footer />
+      {/* <Footer /> */}
     </Box>);
   }
   else {
@@ -53,8 +54,9 @@ function AboutMe() {
         <Projects />
         <Activities />
         <Education />
+        <Box h="20px"></Box>
       </VStack>
-      <Footer />
+      
     </Box>);
   }
   
