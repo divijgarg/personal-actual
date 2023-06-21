@@ -6,9 +6,10 @@ export default function Education() {
   const isDesktop = useBreakpointValue({ base: false, md: true });
   if (isDesktop) {
     return (
-      <VStack w="90%" spacing="40px">
+      <VStack h = "100%" w="90%" spacing="40px">
         <Heading
           w="100%"
+          h="100%"
           color="white"
           textAlign="right"
           textDecoration="underline"
@@ -18,11 +19,11 @@ export default function Education() {
         >
           education
         </Heading>
-        <HStack spacing="50px">
+        <HStack  h = "100% " w = "80%" spacing="50px">
           <SchoolCard
             schoolName="University of Illinois"
             datesAttended="2022 - Present"
-            description="BS in Mathematics, Astrophysics"
+            description="Mathematics, Astrophysics"
           />
           <SchoolCard
             schoolName="Metea Valley High School"

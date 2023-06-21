@@ -78,14 +78,11 @@ export default function HoverImageCard(props: CardProps) {
         <ModalOverlay />
         <ModalContent bgColor="#283635">
           <ModalHeader width="100%" textColor="white">
-            <Text>{title}</Text>
+            <Text >{title}</Text>
           </ModalHeader>
           <ModalBody w="100%">
             <VStack spacing="20px">
-              {/* <Box border="2px solid #964B00"  rounded="sm" maxW="md"> */}
               <Image rounded="md" alignContent="center" src={img} />
-
-              {/* </Box> */}
               <Text fontSize="sm" textColor="white">
                 {fulldesc}
               </Text>
