@@ -89,7 +89,7 @@ const MenuLinks = ({ isOpen }) => {
           transition="transform 0.2s"
           _hover={{ transform: "scale(1.05)" }}
           isLast="false"
-          to="/aboutme"
+          to="/photos"
         >
           photo gallery
         </MenuItem>

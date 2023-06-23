@@ -32,7 +32,7 @@ export default function Education() {
           />
           <SchoolCard
             schoolName="James B. Conant High School"
-            datesAttended="2018 - 2022"
+            datesAttended="2018 - 2020"
             description="Debate | Math Team  | BPA"
           />
         </HStack>
@@ -64,7 +64,7 @@ export default function Education() {
         />
         <SchoolCard
           schoolName="James B. Conant High School"
-          datesAttended="2018 - 2022"
+          datesAttended="2018 - 2020"
           description="Debate | Math Team  | BPA"
         />
       </VStack>
