@@ -85,9 +85,14 @@ const MenuLinks = ({ isOpen }) => {
         >
           about me
         </MenuItem>
-        {/* <MenuItem isLast="false" to="/photos">
-          gallery
-        </MenuItem> */}
+        <MenuItem
+          transition="transform 0.2s"
+          _hover={{ transform: "scale(1.05)" }}
+          isLast="false"
+          to="/aboutme"
+        >
+          photo gallery
+        </MenuItem>
         {/* <MenuItem isLast="false" to="/blog">
           blog
         </MenuItem> */}
