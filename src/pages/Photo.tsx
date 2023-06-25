@@ -5,6 +5,11 @@ import {
   Grid,
   GridItem,
   Heading,
+  VStack,
+  HStack,
+  Image,
+  Avatar,
+  Flex,
 } from "@chakra-ui/react";
 import Nav from "../components/Navbar";
 import PhotoCard from "../components/PhotoCard";
@@ -105,10 +110,47 @@ function Photo() {
         justifyContent="center"
       >
         <Nav />
+
         <Box w="100%" justifyContent="center">
-          <Text fontSize="20px" textAlign="center" textColor="white">
-            A collection of photos I've taken with my DSLR.
-          </Text>
+          <Box
+            bg="white"
+            boxShadow="lg"
+            borderRadius="sm"
+            overflow="hidden"
+            position="relative"
+            bgColor="black"
+          >
+            <Image
+              src="https://i.postimg.cc/rpmFgvYT/IMG-1090.jpg"
+              objectFit="cover"
+              w="100%"
+            />
+            <Box
+              position="absolute"
+              top="0"
+              left="0"
+              bottom="0"
+              right="0"
+              bg="rgba(0,0,0,0.6)"
+              display="flex"
+              flexDirection="column"
+              alignItems="center"
+              justifyContent="center"
+              p="4"
+              color="white"
+            >
+              <Text
+                color="whiteAlpha.900"
+                fontSize="xl"
+                fontWeight="bold"
+                mb="2"
+              >
+                a collection of photos I've taken with my DSLR
+              </Text>
+            </Box>
+            )
+          </Box>
+
           <Grid
             marginTop="20px"
             marginLeft="2%"
@@ -122,6 +164,7 @@ function Photo() {
               </GridItem>
             ))}
           </Grid>
+          <Box h="40px"></Box>
         </Box>
       </Box>
     );
@@ -138,12 +181,58 @@ function Photo() {
       >
         <Nav />
         <Box w="100%" justifyContent="center">
-          <Text fontSize="20px" textAlign="center" textColor="white">
-            A collection of photos I've taken with my DSLR.
-          </Text>
-          <Box textAlign="center" >
+          <Flex
+            bg="white"
+            boxShadow="lg"
+            borderRadius="sm"
+            overflow="hidden"
+            position="relative"
+            bgColor="black"
+            align="center"
+            justify="center"
+            w="100%"
+          >
+            <Image
+              src="https://i.postimg.cc/8CqwtVPf/IMG-1090.jpg"
+              objectFit="cover"
+              borderWidth="4px"
+              borderColor="white"
+              borderStyle="solid"
+              alignContent="center"
+              borderRadius="50%"
+              w="95%"
+            />
+            <Box
+              position="absolute"
+              top="0"
+              left="0"
+              bottom="0"
+              right="0"
+              bg="rgba(0,0,0,0.6)"
+              display="flex"
+              flexDirection="column"
+              alignItems="center"
+              justifyContent="center"
+              p="4"
+              color="white"
+            >
+              <Text
+                color="whiteAlpha.900"
+                fontSize="xl"
+                fontWeight="bold"
+                w="60%"
+                align="center"
+                mb="2"
+              >
+                a collection of photos I've taken with my DSLR
+              </Text>
+            </Box>
+            )
+          </Flex>
+
+          <Box textAlign="center">
             <Grid
-              marginTop="20px"
+              marginTop="40px"
               // w="100%"
               // alignContent="center"
               // marginLeft="4%"
@@ -158,6 +247,7 @@ function Photo() {
               ))}
             </Grid>
           </Box>
+          <Box h="40px"></Box>
         </Box>
       </Box>
     );
