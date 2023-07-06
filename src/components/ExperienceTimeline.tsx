@@ -1,15 +1,14 @@
-import React from "react";
 import {
   Box,
-  chakra,
   Container,
-  Text,
-  HStack,
-  VStack,
   Flex,
-  useColorModeValue,
-  useBreakpointValue,
+  HStack,
   Heading,
+  Text,
+  VStack,
+  chakra,
+  useBreakpointValue,
+  useColorModeValue,
 } from "@chakra-ui/react";
 
 const milestones = [

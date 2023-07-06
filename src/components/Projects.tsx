@@ -1,11 +1,10 @@
 import {
-  VStack,
-  Heading,
-  HStack,
   Box,
   Grid,
   GridItem,
-  useBreakpointValue,
+  Heading,
+  VStack,
+  useBreakpointValue
 } from "@chakra-ui/react";
 import Project from "./HoverImageCard";
 import ProjectMobile from "./HoverImageCardMobile";

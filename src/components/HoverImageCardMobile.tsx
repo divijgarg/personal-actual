@@ -1,20 +1,17 @@
-import * as React from "react";
 import {
   Box,
-  Image,
-  Text,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-  useDisclosure,
-  Button,
-  Link,
   HStack,
+  Image,
+  Link,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  ModalHeader,
+  ModalOverlay,
+  Text,
   VStack,
+  useDisclosure
 } from "@chakra-ui/react";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 

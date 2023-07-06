@@ -1,16 +1,14 @@
 import {
   Box,
   Heading,
+  Image,
+  Link,
   Text,
   VStack,
-  useBreakpointValue,
-  Image,
-  HStack,
-  Link,
+  useBreakpointValue
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Nav from "../components/Navbar";
-import Footer from "../components/Footer";
 
 function Home() {
   const isMobile = useBreakpointValue({ base: true, md: false });

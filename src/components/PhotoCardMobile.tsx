@@ -1,17 +1,8 @@
-import * as React from "react";
 import {
   Box,
-  Image,
-  Text,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  useDisclosure,
-  VStack,
+  Image
 } from "@chakra-ui/react";
+import * as React from "react";
 interface CardProps {
     title: string;
     img: string;

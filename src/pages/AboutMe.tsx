@@ -1,12 +1,11 @@
-import { VStack, Box, useBreakpointValue } from "@chakra-ui/react";
+import { Box, VStack, useBreakpointValue } from "@chakra-ui/react";
 
+import Activities from "../components/Activities";
+import Education from "../components/Education";
 import Timeline from "../components/ExperienceTimeline";
 import Nav from "../components/Navbar";
-import Footer from "../components/Footer";
-import Activities from "../components/Activities";
-import Projects from "../components/Projects";
-import Education from "../components/Education";
 import PersonalInfo from "../components/PersonalInfo";
+import Projects from "../components/Projects";
 function AboutMe() {
   const isMobile = useBreakpointValue({ base: true, md: false });
   const isDesktop = useBreakpointValue({ base: false, md: true });

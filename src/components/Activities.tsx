@@ -1,4 +1,4 @@
-import { VStack, Heading, useBreakpointValue } from "@chakra-ui/react";
+import { Heading, VStack, useBreakpointValue } from "@chakra-ui/react";
 import ActivityCardDesktop from "./ActivityCardDesktop";
 import ActivityCardMobile from "./ActivityCardMobile";
 export default function Activities() {

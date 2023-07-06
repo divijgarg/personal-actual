@@ -1,15 +1,11 @@
 import {
-  Text,
   Box,
-  useBreakpointValue,
+  Flex,
   Grid,
   GridItem,
-  Heading,
-  VStack,
-  HStack,
   Image,
-  Avatar,
-  Flex,
+  Text,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import Nav from "../components/Navbar";
 import PhotoCard from "../components/PhotoCard";

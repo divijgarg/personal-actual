@@ -1,4 +1,4 @@
-import { Box, Center, Text, VStack, Flex } from "@chakra-ui/react";
+import { Center, Flex, Text, VStack } from "@chakra-ui/react";
 
 export default function SchoolCard({ schoolName, datesAttended, description }) {
   return (

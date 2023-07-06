@@ -1,5 +1,5 @@
+import { Box, Flex, Link, Stack, Text } from "@chakra-ui/react";
 import React from "react";
-import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -85,14 +85,14 @@ const MenuLinks = ({ isOpen }) => {
         >
           about me
         </MenuItem>
-        <MenuItem
+        {/* <MenuItem
           transition="transform 0.2s"
           _hover={{ transform: "scale(1.05)" }}
           isLast="false"
           to="/photos"
         >
           photo gallery
-        </MenuItem>
+        </MenuItem> */}
         {/* <MenuItem isLast="false" to="/blog">
           blog
         </MenuItem> */}

@@ -1,12 +1,7 @@
-import * as React from "react";
-import { useEffect } from "react";
-import { ChakraProvider } from "@chakra-ui/react";
-import Home from "./pages/Home";
-import Projects from "./components/Projects";
+import { Route, Routes } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
-import Photo from "./pages/Photo"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./components/Navbar";
+import Home from "./pages/Home";
+import Photo from "./pages/Photo";
 export default function App() {
   
   return (
