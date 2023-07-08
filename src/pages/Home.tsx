@@ -5,7 +5,7 @@ import {
   Link,
   Text,
   VStack,
-  useBreakpointValue
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Nav from "../components/Navbar";
@@ -87,10 +87,7 @@ function Home() {
               textAlign="center"
               color="white"
             >
-              <Link
-                href="https://github.com/divijgarg"
-                isExternal
-              >
+              <Link href="https://github.com/divijgarg" isExternal>
                 {" "}
                 Researcher{" "}
               </Link>{" "}
@@ -101,7 +98,7 @@ function Home() {
               </Link>{" "}
               -
               <Link
-                href="https://www.instagram.com/divij_photography/"
+                href="https://unsplash.com/@divijgarg04                "
                 isExternal
               >
                 {" "}
@@ -178,7 +175,7 @@ function Home() {
               </Link>{" "}
               -
               <Link
-                href="https://www.instagram.com/divij_photography/"
+                href="https://unsplash.com/@divijgarg04"
                 isExternal
               >
                 {" "}
@@ -200,9 +197,7 @@ function Home() {
       </Box>
     );
   }
-  
-  return null;
 
+  return null;
 }
 export default Home;
-

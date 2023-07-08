@@ -15,10 +15,11 @@ export default function Activities() {
           fontSize="4xl"
           fontWeight="bold"
           mb={18}
-        >current activities
+        >
+          current activities
         </Heading>
         <VStack w="100%" spacing="50px">
-          <ActivityCardDesktop 
+          <ActivityCardDesktop
             activityName="Model United Nations"
             role="Vice-President of Internal Affairs | Director for MUNI"
             description="Part of the Model UN club at UIUC. 
@@ -27,10 +28,10 @@ export default function Activities() {
           />
           <ActivityCardDesktop
             activityName="Photographer"
-            role="Instagram: divij_photography"
+            role="https://unsplash.com/@divijgarg04"
             description="Aiming to learn DSLR photography, primarily focusing on nighttime and scenic photos."
           />
-          
+
           <ActivityCardDesktop
             activityName="Writer"
             role="https://www.medium.com/@divijgarg04"
@@ -60,10 +61,11 @@ export default function Activities() {
             description="Part of the Model UN club at UIUC. 
              
             Directed the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers. 
-            Currently developing training plans for the 2023-2024 MUN competitive circuit."/>
+            Currently developing training plans for the 2023-2024 MUN competitive circuit."
+          />
           <ActivityCardMobile
             activityName="Photographer"
-            role="Instagram: divij_photography"
+            role="url(https://unsplash.com/@divijgarg04)"
             description="Aiming to learn DSLR photography, primarily focusing on nighttime and scenic photos."
           />
           <ActivityCardMobile
