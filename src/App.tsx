@@ -5,7 +5,6 @@ export default function App() {
   
   return (
     <Routes>
-      {/* <NavBar /> */}
       <Route path="/" element={<Home />} />
       <Route path="/aboutme" element={<AboutMe />} />
     </Routes>

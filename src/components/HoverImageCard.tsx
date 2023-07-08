@@ -1,19 +1,19 @@
-import * as React from "react";
 import {
   Box,
-  Image,
-  Text,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  useDisclosure,
-  Link,
   HStack,
+  Image,
+  Link,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  ModalHeader,
+  ModalOverlay,
+  Text,
   VStack,
+  useDisclosure,
 } from "@chakra-ui/react";
+import * as React from "react";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 interface CardProps {
   title: string;

@@ -1,17 +1,16 @@
 import {
-  VStack,
   HStack,
   Heading,
   Image,
-  Text,
-  useBreakpointValue,
   Link,
+  Text,
+  VStack,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillMail,
-  AiFillMediumCircle,
+  AiFillMail
 } from "react-icons/ai";
 
 export default function PersonalInfo() {

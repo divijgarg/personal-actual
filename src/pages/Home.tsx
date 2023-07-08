@@ -135,7 +135,7 @@ function Home() {
             key={index}
             src={image}
             overflow="hidden"
-            alt={`Carousel Image ${index + 1}`}
+            alt={`Carousel Image ${index + 1}, taken by Divij Garg`}
             position="absolute"
             top={0}
             left={0}
