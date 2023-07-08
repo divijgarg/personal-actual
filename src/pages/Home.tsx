@@ -170,8 +170,7 @@ function Home() {
               </Link>{" "}
               -
               <Link href="https://medium.com/@divijgarg04" isExternal>
-                {" "}
-                Writer{" "}
+                Writer
               </Link>{" "}
               -
               <Link
