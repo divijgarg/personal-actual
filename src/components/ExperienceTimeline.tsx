@@ -17,7 +17,7 @@ const milestones = [
     date: "Summer 2023",
     title: "Researcher @ Virginia Tech's Physics REU",
     description:
-      "Will be researching radio astronomy under Dr. Lucero as part of VTech's Summer REU program for 10 weeks. Learning to analyze and reduce HI data from NGC 3941 using the Very Large Array (VLA) in New Mexico.",
+      "Researced the HI content of NGC 3941 under Dr. Lucero as part of VTech's Summer REU program for 10 weeks. Analyzed and reduced HI data from the Very Large Array (VLA) in New Mexico, using software tools like CASA and MIRIAD.",
   },
   {
     id: 2,

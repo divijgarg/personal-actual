@@ -76,8 +76,8 @@ export default function PersonalInfo() {
         <Image
           objectFit="cover"
           borderColor="white"
-          src="https://www.linkpicture.com/q/IMG_2612-Copy1.jpg"
-          alt="Divij Garg"
+          src="https://i.postimg.cc/1zSFjFJq/main-Image.jpg"
+          alt="Photo of Divij Garg over the Chicago River."
           borderRadius="50%"
           border="3px solid black"
           padding="2px"
