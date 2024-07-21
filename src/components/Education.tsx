@@ -23,7 +23,7 @@ export default function Education() {
           <SchoolCard
             schoolName="University of Illinois"
             datesAttended="2022 - Present"
-            description="Mathematics, Astrophysics"
+            description="B.S. Computer Science & Math"
           />
           <SchoolCard
             schoolName="Metea Valley High School"
@@ -53,9 +53,9 @@ export default function Education() {
           education
         </Heading>
         <SchoolCard
-          schoolName="University of Illinois"
+          schoolName="University of Illinois Urbana Champaign"
           datesAttended="2022 - Present"
-          description="BS in Mathematics, Astrophysics"
+          description="B.S. Computer Science & Math"
         />
         <SchoolCard
           schoolName="Metea Valley High School"

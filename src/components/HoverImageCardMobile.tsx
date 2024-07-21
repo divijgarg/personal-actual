@@ -44,6 +44,7 @@ export default function HoverImageCard(props: CardProps) {
         cursor="pointer"
         bgColor="black"
         onClick={onOpen}
+        // borderTop="5px transparent white"
       >
         <Image src={img} alt={title} objectFit="cover" w="300px" h="200px" />
         <Box

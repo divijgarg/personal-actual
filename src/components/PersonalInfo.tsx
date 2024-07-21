@@ -7,11 +7,7 @@ import {
   VStack,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillMail
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 export default function PersonalInfo() {
   const isMobile = useBreakpointValue({ base: true, md: false });
@@ -25,10 +21,10 @@ export default function PersonalInfo() {
           </Heading>
 
           <Text color="white" margin="auto" fontSize="2xl" textAlign="center">
-            I'm a sophomore at the University of Illinois Urbana Champaign
-            studying mathematics and astrophysics. I've been an avid space
-            enthusiast for my entire life, and I'm currently interested in the
-            applications of math to astrophysics research.
+            I am a junior at the University of Illinois Urbana Champaign
+            majoring in CS + Mathematics. I have been an avid math enthusiast
+            for my entire life, and I am currently interested in the
+            applications of the subject in various fields such as aerospace.
           </Text>
 
           <HStack spacing="20px">
@@ -76,8 +72,8 @@ export default function PersonalInfo() {
         <Image
           objectFit="cover"
           borderColor="white"
-          src="https://i.postimg.cc/1zSFjFJq/main-Image.jpg"
-          alt="Photo of Divij Garg over the Chicago River."
+          src="Images/divij.jpg"
+          alt="Photo of Divij Garg"
           borderRadius="50%"
           border="3px solid black"
           padding="2px"
@@ -91,7 +87,7 @@ export default function PersonalInfo() {
         <Image
           objectFit="cover"
           borderColor="white"
-          src="https://www.linkpicture.com/q/IMG_2612-Copy1.jpg"
+          src="Images/divij.jpg"
           alt="Divij Garg"
           borderRadius="50%"
           border="3px solid black"
@@ -104,10 +100,10 @@ export default function PersonalInfo() {
           Hey!
         </Heading>
         <Text color="white" margin="auto" fontSize="2xl" textAlign="center">
-          I'm a sophomore at the University of Illinois Urbana Champaign
-          studying mathematics and astrophysics. I've been an avid space
-          enthusiast for my entire life, and I'm currently interested in the
-          applications of math to astrophysics research.
+          I am a junior at the University of Illinois Urbana Champaign majoring
+          in CS + Mathematics. I have been an avid math enthusiast for my entire
+          life, and I am currently interested in the applications of the subject
+          in various fields such as aerospace.
         </Text>
 
         <HStack spacing="20px">

@@ -14,28 +14,37 @@ import {
 const milestones = [
   {
     id: 1,
-    date: "Summer 2023",
-    title: "Researcher @ Virginia Tech's Physics REU",
+    date: "January 2024 - Present",
+    title: "Founder @ Scholar Sphere",
     description:
-      "Researced the HI content of NGC 3941 under Dr. Lucero as part of VTech's Summer REU program for 10 weeks. Analyzed and reduced HI data from the Very Large Array (VLA) in New Mexico, using software tools like CASA and MIRIAD..",
+      "Started tutoring company focused on low-cost SAT/ACT preparation for students.",
   },
   {
     id: 2,
-    date: "December 2022 - April 2023",
-    title: "Web Designer @ Illinois School of Social Work",
-    description: `Designing a website for the Champaign Urbana Public Health District to make community health resources more accessible to resident within the region. `,
+    date: "January 2024 - May 2024",
+    title: "Researcher @ Illinois Mathematics Lab",
+    description:
+      "Discovered previously unknown estimates to quantum gates allowing for easier implementation within real-life systems. ",
   },
   {
     id: 3,
-    date: "May 2021 - Present",
-    title: "Researcher @ Illinois Combinatorics Lab",
-    description: `Conducting research within the field of combinatorics with Professor Yong at UIUC, focusing on vandermonde determinants and saturated newton polytopes.`,
+    date: "Summer 2023",
+    title: "Researcher @ Virginia Tech's Physics REU",
+    description:
+      "Researched the HI content of NGC 3941 under Dr. Lucero as part of VTech's Summer REU program for 10 weeks. Analyzed and reduced HI data from the Very Large Array (VLA) in New Mexico, using software tools like CASA and MIRIAD.",
   },
   {
     id: 4,
-    date: "Feb 2022 - Aug 2022",
-    title: "Tutor @ Elite Tutoring Place",
-    description: `Assisted students with SAT and school homework/test preparation.`,
+    date: "December 2022 - April 2023",
+    title: "Web Designer @ Illinois School of Social Work",
+    description: `Designed a website for the Champaign Urbana Public Health District to make community health resources more accessible to resident within the region. `,
+  },
+  {
+    id: 5,
+    date: "May 2021 - May 2023",
+    title: "Researcher @ Illinois Combinatorics Lab",
+    description: `Conducted research within the field of combinatorics with Professor Yong at UIUC, focusing on vandermonde determinants and saturated newton polytopes. Developed python algorithm to test the Saturated Newton Polytope condition for determinants and discovered parity trend in discriminant data and combinatorial explanations for the results.
+     `,
   },
 ];
 
@@ -51,9 +60,9 @@ const Milestones = () => {
         fontWeight="bold"
         mb={18}
         color="white"
-        textAlign = {isDesktop? "left" : "center"}
+        textAlign={isDesktop ? "left" : "center"}
       >
-        experience
+        relavent experiences
       </Heading>
       {milestones.map((milestone) => (
         <Flex key={milestone.id} mb="10px">
@@ -138,7 +147,7 @@ const Card = ({ id, title, date, description }: CardProps) => {
         display: "block",
       }}
     >
-      <Box >
+      <Box boxShadow="md" >
         <Text fontSize="lg" color={isEvenId ? "teal.400" : "blue.400"}>
           {date}
         </Text>
@@ -201,6 +210,7 @@ const EmptyCard = () => {
       flex={{ base: 0, md: 1 }}
       p={{ base: 0, md: 6 }}
       bg="transparent"
+      boxShadow="lg"
     ></Box>
   );
 };

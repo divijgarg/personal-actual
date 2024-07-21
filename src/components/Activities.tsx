@@ -21,10 +21,10 @@ export default function Activities() {
         <VStack w="100%" spacing="50px">
           <ActivityCardDesktop
             activityName="Model United Nations"
-            role="Vice-President of Internal Affairs | Director for MUNI"
+            role="President"
             description="Part of the Model UN club at UIUC. 
               Directed the United Nations Development Programme for the annual MUN conference at UIUC for high schoolers. 
-              Currently developing training plans for the 2023-2024 MUN competitive circuit."
+              "
           />
           <ActivityCardDesktop
             activityName="Photographer"

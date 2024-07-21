@@ -15,6 +15,7 @@ function Home() {
   const isDesktop = useBreakpointValue({ base: false, md: true });
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
+  
     "https://i.postimg.cc/CKg5Hxzh/IMG-4598.jpg",
     "https://i.ibb.co/nBQfRH9/IMG-3286.jpg",
     "https://i.ibb.co/TkpTWY3/IMG-3434.jpg",
@@ -23,6 +24,7 @@ function Home() {
     "https://i.ibb.co/DLvGY5G/IMG-4607.jpg",
     "https://i.ibb.co/rx5MM4B/IMG-4856.jpg",
     "https://i.ibb.co/9qBRPv2/IMG-4891.jpg",
+    "Images/IMG_9681-2.jpg",
   ];
 
   useEffect(() => {
