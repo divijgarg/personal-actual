@@ -9,10 +9,10 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import Navbar from "../components/components/NavBar2";
-import Intro from "../components/components/intro";
-import Experience from "../components/components/Experience2";
-import Footer from "../components/components/Footer";
+import Navbar from "../components/NavBar2";
+import Intro from "../components/intro";
+import Experience from "../components/Experience2";
+import Footer from "../components/Footer";
 
 function Home2() {
   const isMobile = useBreakpointValue({ base: true, md: false });

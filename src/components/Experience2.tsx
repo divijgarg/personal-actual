@@ -9,7 +9,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { CV } from "../../assets/CV";
+import { CV } from "../assets/CV";
 import ExperienceCard from "./ExperienceCard";
 function Experience() {
   const isMobile = useBreakpointValue({ base: true, md: false });
