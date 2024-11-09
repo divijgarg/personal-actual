@@ -4,7 +4,7 @@ import {
   GridItem,
   Heading,
   VStack,
-  useBreakpointValue
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import Project from "./HoverImageCard";
 import ProjectMobile from "./HoverImageCardMobile";

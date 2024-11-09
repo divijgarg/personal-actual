@@ -8,14 +8,13 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import Nav from "../components/Navbar";
+import Nav from "../archive/Navbar";
 
 function Home() {
   const isMobile = useBreakpointValue({ base: true, md: false });
   const isDesktop = useBreakpointValue({ base: false, md: true });
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-  
     "https://i.postimg.cc/CKg5Hxzh/IMG-4598.jpg",
     "https://i.ibb.co/nBQfRH9/IMG-3286.jpg",
     "https://i.ibb.co/TkpTWY3/IMG-3434.jpg",
@@ -175,10 +174,7 @@ function Home() {
                 Writer
               </Link>{" "}
               -
-              <Link
-                href="https://unsplash.com/@divijgarg04"
-                isExternal
-              >
+              <Link href="https://unsplash.com/@divijgarg04" isExternal>
                 {" "}
                 Photographer{" "}
               </Link>

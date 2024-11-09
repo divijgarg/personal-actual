@@ -62,7 +62,7 @@ const Milestones = () => {
         color="white"
         textAlign={isDesktop ? "left" : "center"}
       >
-        relavent experiences
+        relevant experiences
       </Heading>
       {milestones.map((milestone) => (
         <Flex key={milestone.id} mb="10px">

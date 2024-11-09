@@ -1,0 +1,24 @@
+/* 
+@font-face {
+    font-family: "Intro Bold";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../public/Intro\ Bold\ Alt.otf') format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Inter Italics";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../public/Intro\ Regular\ Alt.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Intro Book";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../public/Intro\ Book\ Alt.otf") format("opentype");
+  }
+   */
