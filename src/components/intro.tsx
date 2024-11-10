@@ -119,7 +119,7 @@ export default function Intro() {
           justifyContent="center"
         >
           <Text w="100%" color="white" textAlign="center">
-            Hey there! My name is
+            Hey there!
           </Text>
           <Text w="100%" color="white" textAlign="center">
            

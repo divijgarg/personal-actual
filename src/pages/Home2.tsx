@@ -1,13 +1,4 @@
-import {
-  Box,
-  Divider,
-  Heading,
-  Image,
-  Link,
-  Text,
-  VStack,
-  useBreakpointValue,
-} from "@chakra-ui/react";
+import { Box, Divider, useBreakpointValue } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Navbar from "../components/NavBar2";
 import Intro from "../components/intro";
