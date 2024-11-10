@@ -41,7 +41,7 @@ export default function ExperienceCard(props: ExperienceProps) {
           //   boxShadow: "lg",
           //   transition: "all 0.3s ease-in-out",
           // }}
-          bg="gray.700"
+          bg="rgba(128, 128, 128, 0.1)" // More transparent background
           boxShadow="lg" // Added drop shadow
           borderRadius="md"
           p={4}
@@ -113,7 +113,7 @@ export default function ExperienceCard(props: ExperienceProps) {
           //   transition: "all 0.3s ease-in-out",
           // }}
           // h = "100%"
-          bg="gray.700"
+          bg="rgba(128, 128, 128, 0.1)"
           boxShadow="lg" // Added drop shadow
           borderRadius="md"
           p={4}
@@ -130,7 +130,7 @@ export default function ExperienceCard(props: ExperienceProps) {
         mb="5%"
       /> */}
           <VStack w="100%" justifyContent="left" ml="3%" mr="3%">
-            <Text  w="100%" fontSize="sm" color="white" alignContent="center">
+            <Text w="100%" fontSize="sm" color="white" alignContent="center">
               {startDate} ~ {endDate}
             </Text>
             <HStack w="100%" spacing="10px" alignContent="left">
