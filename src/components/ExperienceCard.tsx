@@ -46,28 +46,11 @@ export default function ExperienceCard(props: ExperienceProps) {
           borderRadius="md"
           p={4}
         >
-          <VStack w="15%" justifyContent="center" textAlign="center">
-            <Text fontSize="1xl" color="white" alignContent="center">
-              {startDate}
+          <VStack w="100%" justifyContent="left" ml="1%" mr="3%"  mb="2%">
+            <Text w="100%" fontSize="sm" color="white" alignContent="center">
+              {startDate} - {endDate}
             </Text>
-            <Text color="white">~</Text>
-            <Text fontSize="1xl" color="white" alignContent="center">
-              {endDate}
-            </Text>
-          </VStack>
-          <Divider
-            ml="1%"
-            orientation="vertical"
-            borderColor="white"
-            borderWidth="2px"
-            height="100px"
-            justifyContent="center"
-            alignContent="center"
-            mt="5%"
-            mb="5%"
-          />
-          <VStack w="100%" justifyContent="left" ml="5%">
-            <HStack w="100%" mt="1%" spacing="10px" alignContent="left">
+            <HStack w="100%" spacing="10px" alignContent="left">
               <Text fontSize="2xl" color="white" w="100%">
                 <b>{company}</b>
               </Text>
@@ -86,9 +69,10 @@ export default function ExperienceCard(props: ExperienceProps) {
                 </Tooltip>
               ))}
             </HStack>
-            <Text fontSize="1xl" color="white" w="100%">
+            <Text w="100%" fontSize="1xl" color="white">
               <i>{role}</i>
             </Text>
+
             <Text fontSize="1xl" color="white" w="100%">
               {description}
             </Text>
@@ -131,7 +115,7 @@ export default function ExperienceCard(props: ExperienceProps) {
       /> */}
           <VStack w="100%" justifyContent="left" ml="3%" mr="3%">
             <Text w="100%" fontSize="sm" color="white" alignContent="center">
-              {startDate} ~ {endDate}
+              {startDate} - {endDate}
             </Text>
             <HStack w="100%" spacing="10px" alignContent="left">
               <Text fontSize="2xl" color="white" w="100%">

@@ -4,6 +4,8 @@ import Navbar from "../components/NavBar2";
 import Intro from "../components/intro";
 import Experience from "../components/Experience2";
 import Footer from "../components/Footer";
+import Organization from "../components/Projects";
+import Projects from "../components/Projects";
 
 function Home2() {
   const isMobile = useBreakpointValue({ base: true, md: false });
@@ -30,6 +32,9 @@ function Home2() {
         <Divider w="60%" ml="5%" borderColor="white" borderWidth="2px" />
         <Box id="experience">
           <Experience />
+        </Box>
+        <Box id="projects">
+          <Projects />
         </Box>
         <Footer />
       </Box>
@@ -61,6 +66,9 @@ function Home2() {
         />
         <Box id="experience">
           <Experience />
+        </Box>
+        <Box id="projects">
+          <Projects />
         </Box>
         <Footer />
       </Box>

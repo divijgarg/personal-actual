@@ -24,6 +24,7 @@ function Button2(props: ButtonProps) {
         whiteSpace="nowrap"
         ml="5%"
         mr="5%"
+        fontSize="sm"
         display="flex"
         justifyContent="center"
       >

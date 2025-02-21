@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/src/not_pushd
 .pnp.js
 
 # testing
