@@ -14,7 +14,7 @@ export default function Intro() {
   const isDesktop = useBreakpointValue({ base: false, md: true });
   if (isDesktop) {
     return (
-      <HStack w="90%" spacing="20%" m="5%">
+      <HStack w="90%" spacing="10%" m="5%">
         <VStack
           spacing="1px"
           bgColor="transparent"
@@ -91,9 +91,12 @@ export default function Intro() {
             </Link>
           </HStack>
           <Text w="100%" color="white" textAlign="left">
-            I am a project driven, hardworking student interested in
-            applications of mathematics in computer science.{" "}
-          </Text>
+          I am a project driven, hardworking student interested in
+            applications of mathematics in computer science. On campus, I have
+            served as the president of the Model UN club, am a software lead for
+            the Illinois Space Society's (ISS) Human Lander Challenge team, and part
+            of the Guidance, Navigation, and Control team for ISS's spaceshot
+            rocket. </Text>
         </VStack>
         <Image
           objectFit="cover"
@@ -122,7 +125,7 @@ export default function Intro() {
             Hey there!
           </Text>
           <Text w="100%" color="white" textAlign="center">
-           
+            My name is
           </Text>
           <Heading w="100%" color="white" textAlign="center" fontSize="7xl">
             Divij Garg
@@ -188,7 +191,11 @@ export default function Intro() {
           </HStack>
           <Text w="100%" color="white" textAlign="center">
             I am a project driven, hardworking student interested in
-            applications of mathematics in computer science.{" "}
+            applications of mathematics in computer science. On campus, I have
+            served as the president of the Model UN club, am a software lead for
+            the Illinois Space Society's Human Lander Challenge team, and part
+            of the Guidance, Navigation, and Control team for ISS's spaceshot
+            rocket.
           </Text>
           <Image
             objectFit="cover"
