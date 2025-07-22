@@ -25,7 +25,7 @@ function Projects() {
         bgAttachment="fixed"
         bgRepeat="no-repeat"
         bgSize="cover"
-        bgColor="#041325"
+        // bgColor="#041325"
         ml="5%"
         mr="5%"
       >
@@ -65,7 +65,7 @@ function Projects() {
         bgAttachment="fixed"
         bgRepeat="no-repeat"
         bgSize="cover"
-        bgColor="#041325"
+        // bgColor="#041325"
       >
         <Heading
           w="90%"

@@ -25,7 +25,7 @@ function Experience() {
         bgAttachment="fixed"
         bgRepeat="no-repeat"
         bgSize="cover"
-        bgColor="#041325"
+        // bgColor="#041325"
       >
         <Heading
           w="90%"
@@ -62,7 +62,7 @@ function Experience() {
         bgAttachment="fixed"
         bgRepeat="no-repeat"
         bgSize="cover"
-        bgColor="#041325"
+        // bgColor="#041325"
       >
         <Heading
           w="90%"

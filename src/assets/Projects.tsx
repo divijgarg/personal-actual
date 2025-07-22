@@ -1,6 +1,29 @@
-import { m } from "framer-motion";
 
 export const CV = [
+  {
+    startDate: "August 2024",
+    endDate: "Present",
+    project: "Illinois Model UN",
+    description:
+      "Designed 2 front-end websites for Illinois Model UN utilizing Tailwind, allowing for club recognition and marketing.",
+    booleanList: [
+      { type: "Tailwind", color: "#800A5B" }, 
+    ],
+    links: [
+      {
+        url: "https://illinoismun.org",
+        descr: "Illinois Model UN Website",
+      },
+      {
+        url: "https://github.com/illinoismun/illinoismun.github.io",
+        descr: "Github Repository (1)",
+      },
+      {
+        url: "https://github.com/illinoismun/muni",
+        descr: "Github Repository (2)",
+      },
+    ],
+  },
   {
     startDate: "August 2022",
     endDate: "October 2022",
@@ -13,7 +36,7 @@ export const CV = [
       { type: "Chakra UI", color: "#556B72" }, // Slate gray
       { type: "APIs", color: "#6B8E23" }, // Olive drab
       { type: "Firebase", color: "#D4A373" }, // Sand dune
-      
+
     ],
     links: [
       {
@@ -38,10 +61,10 @@ export const CV = [
         descr: "Landing Video",
       },
       {
-        url:"https://www.google.com/url?sa=j&url=https%3A%2F%2Fphotos.app.goo.gl%2FWxFwUgeFfy8tSiZC6&uct=1730408830&usg=U-hDhTc5UtLXGGN7tA0hdGiMqlI.&opi=116514672",
-        descr:"Competition Image"
+        url: "https://www.google.com/url?sa=j&url=https%3A%2F%2Fphotos.app.goo.gl%2FWxFwUgeFfy8tSiZC6&uct=1730408830&usg=U-hDhTc5UtLXGGN7tA0hdGiMqlI.&opi=116514672",
+        descr: "Competition Image"
       }
-      
+
     ],
   },
   {
