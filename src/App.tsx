@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home2 from "./pages/Home2";
 import Weather from "./weatherApp/weather";
 import NewYear from "./not_pushd/newyear";
+import Grievance from "./not_pushd/grievances";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Route path="/aboutme" element={<AboutMe />} /> */}
       <Route path="/" element={<Home2 />} />
       <Route path="/hehe" element={<NewYear />} />
+      <Route path="/kaajuportal" element={<Grievance/>} />
       {/* <Route path="/weather" element={<Weather />} /> */}
       </Routes>
   );
